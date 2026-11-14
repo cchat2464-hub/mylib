@@ -6,9 +6,11 @@
 /*   By: malaura <malaura@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/11 11:54:33 by malaura           #+#    #+#             */
-/*   Updated: 2026/11/11 12:28:21 by malaura          ###   ########.fr       */
+/*   Updated: 2026/11/13 11:32:53 by malaura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/* This Function checks if a char is para of ascii table*/
 
 int ft_isascii(int c)
 {
@@ -17,6 +19,8 @@ int ft_isascii(int c)
 	return(0);
 }
 
+/* testin
+ *
 #include <stdio.h>
 #include <ctype.h>
 
@@ -41,4 +45,4 @@ int main(void)
  
  	return(0);
 }
-
+*/

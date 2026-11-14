@@ -6,10 +6,12 @@
 /*   By: malaura <malaura@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/12 19:08:23 by malaura           #+#    #+#             */
-/*   Updated: 2026/11/12 19:33:01 by malaura          ###   ########.fr       */
+/*   Updated: 2026/11/13 11:31:35 by malaura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/* funtion check wheather character is alphaumeric charactr o not, and return a int value.*/
+
+/* This fucntion check wheather character is alphaumeric charactr o not, and return a int value.*/
+
 int ft_isalnum(int c)
 {
 	if ((c >= 'a' && c <= 'z' )
@@ -19,7 +21,7 @@ int ft_isalnum(int c)
 	else
 		return(0);
 }
-/* testing*/
+/* testing
 
 #include <stdio.h>
 #include <ctype.h>
@@ -30,3 +32,4 @@ int main(int c)
 	printf("c:%c | ESP:%d |RES:%d ", c, isalnum(c), ft_isalumn(c));
 	return(0);
 }
+*/
