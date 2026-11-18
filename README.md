@@ -1,6 +1,6 @@
 # 42 - Libft 
 
-This activity has been created has part of 42 curriculum by jcastan (Julien CASTAN). 
+This Library has been writeen by Marianela Laura (malaura), as a first project in 42Paris.
 
 ## Description
 
@@ -9,14 +9,15 @@ The goal was to reacreate from scratch some functions of the Libc and add some n
 
 ## Instructions
 
-To compile the Libft activity, use the command make. It will create a libft.a file that can be included in the compilation of other C projects.
+To compile the Libft activity, use the command make. 
+It will create a libft.a file that can be included in the compilation of other C projects.
 
 ## Ressources
 
 - man commands
-- Stack Overflow
-- Wikipedia (data types, file descriptors, linked lists)
-- AI (Gemini) for debugging.
+- ee web pages (data types, file descriptors, linked lists)
+- AI to compare the concepts that are new for me and the real life, and for debugging my programs.
+
 
 ## List of the functions
 
