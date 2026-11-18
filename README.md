@@ -14,7 +14,7 @@ It will create a libft.a file that can be included in the compilation of other C
 
 ## Ressources
 
-- man commands
+- Linux manual page: https://man7.org/linux/man-pages/
 - ee web pages (data types, file descriptors, linked lists)
 - AI to compare the concepts that are new for me and the real life, and for debugging my programs.
 
