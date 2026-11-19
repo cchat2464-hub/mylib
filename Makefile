@@ -1,4 +1,3 @@
-makefile
 NAME		= libft.a
 
 CC			= cc
@@ -30,14 +29,16 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
 
-bonus: $(OBJS) $(BONUS_OBJS)
+bonus: .bonus
+.bonus: $(OBJS) $(BONUS_OBJS)
 	$(AR) $(NAME) $(OBJS) $(BONUS_OBJS)
+	@touch .bonus
 
 %.o: %.c $(HEADER)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	$(RM) $(OBJS) $(BONUS_OBJS)
+	$(RM) $(OBJS) $(BONUS_OBJS) .bonus
 
 fclean: clean
 	$(RM) $(NAME)
