@@ -6,21 +6,18 @@
 /*   By: malaura <malaura@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/11 11:54:33 by malaura           #+#    #+#             */
-/*   Updated: 2026/11/13 11:32:53 by malaura          ###   ########.fr       */
+/*   Updated: 2026/11/19 10:38:08 by malaura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 /* This Function checks if a char is para of ascii table*/
-
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);
-	return(0);
+	return (0);
 }
 
-/* testin
- *
+/* testing
 #include <stdio.h>
 #include <ctype.h>
 

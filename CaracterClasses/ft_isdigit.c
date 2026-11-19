@@ -6,15 +6,12 @@
 /*   By: malaura <malaura@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/11 12:33:23 by malaura           #+#    #+#             */
-/*   Updated: 2026/11/14 19:35:31 by malaura          ###   ########.fr       */
+/*   Updated: 2026/11/19 10:40:11 by malaura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+/*It checks if the character falls strictly within the standard ASCII */
 
-/*It checks if the character falls strictly within the standard ASCII range of '0' to '9'
- * Return Value: True > non-zero value
- *               Falso > 0 */
-
-int ft_isdigit(int n)
+int	ft_isdigit(int n)
 {
 	return (n >= '0' && n <= '9');
 }

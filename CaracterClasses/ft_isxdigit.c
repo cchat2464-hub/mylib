@@ -6,20 +6,17 @@
 /*   By: malaura <malaura@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 15:56:43 by malaura           #+#    #+#             */
-/*   Updated: 2026/11/13 16:02:11 by malaura          ###   ########.fr       */
+/*   Updated: 2026/11/19 10:50:43 by malaura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 /* This function checks the hexadecimal numbers
  * 0123456789ABCDEF*/
-
-int ft_isxdigit(char c)
+int	ft_isxdigit(char c)
 {
-	if (( c>='0' && c<='9')||
-		(c >='a' && c <='f')||
-			(c >='A' && c<='F'))
+	if ((c >= '0' && c <= '9')
+		|| (c >= 'a' && c <= 'f')
+		|| (c >= 'A' && c <= 'F'))
 		return (1);
 	else
-	 	return (0);
+		return (0);
 }
-
-

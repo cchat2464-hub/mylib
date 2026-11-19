@@ -6,15 +6,13 @@
 /*   By: malaura <malaura@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/14 20:13:05 by malaura           #+#    #+#             */
-/*   Updated: 2026/11/14 21:54:42 by malaura          ###   ########.fr       */
+/*   Updated: 2026/11/19 10:54:13 by malaura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/* Turn a lowercase letter to uppercase */ 
-
-int ft_toupper(int c)
+/* Turn a lowercase letter to uppercase */
+int	ft_toupper(int c)
 {
-	if ( c>= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (c - 32);
 	return (c);
 }

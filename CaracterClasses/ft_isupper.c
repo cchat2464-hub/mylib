@@ -6,13 +6,13 @@
 /*   By: malaura <malaura@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/14 19:41:36 by malaura           #+#    #+#             */
-/*   Updated: 2026/11/14 19:45:36 by malaura          ###   ########.fr       */
+/*   Updated: 2026/11/19 10:46:40 by malaura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*This function checks if a letter is uppercase)*/
 
-int ft_isupper(int c)
+int	ft_isupper(int c)
 {
-	return ( c >='A' && c <='Z');
+	return (c >= 'A' && c <= 'Z');
 }

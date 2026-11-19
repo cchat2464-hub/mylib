@@ -6,14 +6,14 @@
 /*   By: malaura <malaura@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/12 19:40:09 by malaura           #+#    #+#             */
-/*   Updated: 2026/11/12 19:43:39 by malaura          ###   ########.fr       */
+/*   Updated: 2026/11/19 10:41:41 by malaura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 /* is returning 1 if the caracter is lower*/
-int ft_islower(int c)
+int	ft_islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
-		return(1);
+		return (1);
 	else
-		return(0);
+		return (0);
 }
